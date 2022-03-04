@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.net.*?>
 <?import java.util.*?>
@@ -7,8 +8,17 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ni.com.tistesoft.windowviewer.VentanaViewerController">
-    <stylesheets>
-        <URL value="@ventanaviewer.css"/>
-    </stylesheets>
-</AnchorPane>
+
+<GridPane prefHeight="476.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ni.com.tistesoft.windowviewer.VentanaViewerController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <ListView maxHeight="1.7976931348623157E308" prefHeight="440.0" prefWidth="356.0" />
+      <ImageView fitHeight="480.0" fitWidth="370.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+   </children>
+</GridPane>
