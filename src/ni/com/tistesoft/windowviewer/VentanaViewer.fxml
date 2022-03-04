@@ -18,7 +18,7 @@
     <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <ListView maxHeight="1.7976931348623157E308" prefHeight="440.0" prefWidth="356.0" />
-      <ImageView fitHeight="480.0" fitWidth="370.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+      <ListView fx:id="flowersListView" maxHeight="1.7976931348623157E308" prefHeight="440.0" prefWidth="356.0" />
+      <ImageView fx:id="flowerImageView" fitHeight="480.0" fitWidth="370.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
    </children>
 </GridPane>
